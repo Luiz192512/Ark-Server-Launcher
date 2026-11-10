@@ -6,7 +6,7 @@ Stack: Tauri 2 (Rust core) + React + TypeScript + Vite. No Python anywhere. The 
 
 ## Download
 
-Get `ENZ Launcher_0.1.0_x64-setup.exe` from the [latest release](../../releases/latest). It installs for the current user, no administrator needed. The installer is unsigned, so Windows SmartScreen may warn: choose **More info**, then **Run anyway**. The release notes list the SHA-256 of the file. To build it yourself, see [Build](#build).
+Get `ENZ-Launcher_0.1.0_x64-setup.exe` from the [latest release](../../releases/latest). It installs for the current user, no administrator needed. The installer is unsigned, so Windows SmartScreen may warn: choose **More info**, then **Run anyway**. The release notes list the SHA-256 of the file. To build it yourself, see [Build](#build).
 
 On first run open **Configurações** and set the server folder, for example `D:\SteamLibrary\steamapps\common\ARK Survival Evolved Dedicated Server`. The launcher checks that `ShooterGameServer.exe` is there.
 
