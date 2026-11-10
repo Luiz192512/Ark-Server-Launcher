@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Original artwork for the unofficial ENZ Launcher: a glowing hexagon with an "A" emblem
+       in the teal and amber of the app design. It is not the official ARK logo. -->
+  <defs>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12303A"/>
+      <stop offset="1" stop-color="#060C0F"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8FF5EC"/>
+      <stop offset="0.55" stop-color="#2EE6D6"/>
+      <stop offset="1" stop-color="#1FA89C"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F2A33A"/>
+      <stop offset="1" stop-color="#FFC66B"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <clipPath id="inside">
+      <polygon points="512,60 903,286 903,738 512,964 121,738 121,286"/>
+    </clipPath>
+  </defs>
+
+  <!-- soft glow behind the hexagon -->
+  <polygon points="512,42 919,277 919,747 512,982 105,747 105,277"
+           fill="none" stroke="#2EE6D6" stroke-width="44" stroke-linejoin="round"
+           opacity="0.55" filter="url(#glow)"/>
+
+  <!-- body -->
+  <polygon points="512,42 919,277 919,747 512,982 105,747 105,277"
+           fill="url(#fill)" stroke="url(#rim)" stroke-width="34" stroke-linejoin="round"/>
+
+  <!-- inner hex line and faint hex-grid texture -->
+  <polygon points="512,112 858,312 858,712 512,912 166,712 166,312"
+           fill="none" stroke="#1E3A40" stroke-width="8" stroke-linejoin="round"/>
+  <g clip-path="url(#inside)" stroke="#2EE6D6" stroke-opacity="0.07" stroke-width="6" fill="none">
+    <path d="M512 60 L512 964 M121 286 L903 738 M903 286 L121 738"/>
+  </g>
+
+  <!-- emblem glow -->
+  <g filter="url(#glow)" opacity="0.6" fill="none" stroke="#2EE6D6" stroke-width="84" stroke-linejoin="miter">
+    <polyline points="300,742 512,262 724,742"/>
+  </g>
+
+  <!-- emblem: a bold chevron -->
+  <polyline points="300,742 512,262 724,742" fill="none" stroke="url(#rim)"
+            stroke-width="84" stroke-linejoin="miter" stroke-miterlimit="6"/>
+</svg>

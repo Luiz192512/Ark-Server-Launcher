@@ -1,0 +1,39 @@
+:root {
+  --color-bg0: #070d10;
+  --color-bg1: #0a1418;
+  --color-panel: #0c161a;
+  --color-line: #1e3a40;
+  --color-hex: #12262b;
+  --color-teal: #2ee6d6;
+  --color-cyan: #5ad1ff;
+  --color-amber: #f2a33a;
+  --color-text: #dcebe9;
+  --color-text-soft: #b9cfcc;
+  --color-muted: #8aa3a1;
+  --color-danger: #ff7a7a;
+  --color-danger-text: #ffb3b3;
+  --color-on-accent: #04100f;
+
+  --font-display: "Rajdhani", sans-serif;
+  --font-body: "Barlow", system-ui, sans-serif;
+  --font-mono: Consolas, "Courier New", monospace;
+
+  --cut-card: 20px;
+  --cut-button: 14px;
+
+  --glow-teal: 0 0 28px rgba(46, 230, 214, 0.4);
+  --glow-amber: 0 0 24px rgba(242, 163, 58, 0.35);
+  --glow-danger: 0 0 24px rgba(255, 92, 92, 0.35);
+
+  --motion-fast: 120ms;
+  --motion-base: 240ms;
+  --motion-slow: 480ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 0ms;
+    --motion-base: 0ms;
+    --motion-slow: 0ms;
+  }
+}

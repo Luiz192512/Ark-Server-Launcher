@@ -1,0 +1,15 @@
+[
+  { "id": "theisland", "displayName": "The Island", "edition": "ase", "launchToken": "TheIsland", "dlcRequired": false, "installedCheck": "Maps/TheIslandSubMaps/TheIsland.umap", "thumbnail": "assets/maps/theisland.webp", "verified": true },
+  { "id": "scorchedearth", "displayName": "Scorched Earth", "edition": "ase", "launchToken": "ScorchedEarth_P", "dlcRequired": true, "installedCheck": "Maps/ScorchedEarth/ScorchedEarth_P.umap", "thumbnail": "assets/maps/scorchedearth.webp", "verified": true },
+  { "id": "thecenter", "displayName": "The Center", "edition": "ase", "launchToken": "TheCenter", "dlcRequired": false, "installedCheck": "Mods/TheCenter/TheCenter.umap", "thumbnail": "assets/maps/thecenter.webp", "verified": true },
+  { "id": "aberration", "displayName": "Aberration", "edition": "ase", "launchToken": "Aberration_P", "dlcRequired": true, "installedCheck": "Maps/Aberration/Aberration_P.umap", "thumbnail": "assets/maps/aberration.webp", "verified": true },
+  { "id": "extinction", "displayName": "Extinction", "edition": "ase", "launchToken": "Extinction", "dlcRequired": true, "installedCheck": "Maps/Extinction/Extinction.umap", "thumbnail": "assets/maps/extinction.webp", "verified": true },
+  { "id": "genesis", "displayName": "Genesis: Part 1", "edition": "ase", "launchToken": "Genesis", "dlcRequired": true, "installedCheck": "Maps/Genesis/Genesis.umap", "thumbnail": "assets/maps/genesis.webp", "verified": true },
+  { "id": "genesis2", "displayName": "Genesis: Part 2", "edition": "ase", "launchToken": "Gen2", "dlcRequired": true, "installedCheck": "Maps/Genesis2/Gen2.umap", "thumbnail": "assets/maps/genesis2.webp", "verified": true },
+  { "id": "ragnarok", "displayName": "Ragnarok", "edition": "ase", "launchToken": "Ragnarok", "dlcRequired": false, "installedCheck": "Mods/Ragnarok/Ragnarok.umap", "thumbnail": "assets/maps/ragnarok.webp", "verified": true },
+  { "id": "valguero", "displayName": "Valguero", "edition": "ase", "launchToken": "Valguero_P", "dlcRequired": false, "installedCheck": "Mods/Valguero/Valguero_P.umap", "thumbnail": "assets/maps/valguero.webp", "verified": true },
+  { "id": "crystalisles", "displayName": "Crystal Isles", "edition": "ase", "launchToken": "CrystalIsles", "dlcRequired": false, "installedCheck": "Mods/CrystalIsles/CrystalIsles.umap", "thumbnail": "assets/maps/crystalisles.webp", "verified": true },
+  { "id": "lostisland", "displayName": "Lost Island", "edition": "ase", "launchToken": "LostIsland", "dlcRequired": false, "installedCheck": "Mods/LostIsland/LostIsland.umap", "thumbnail": "assets/maps/lostisland.webp", "verified": true },
+  { "id": "fjordur", "displayName": "Fjordur", "edition": "ase", "launchToken": "Fjordur", "dlcRequired": false, "installedCheck": "Mods/FjordurOfficial/Fjordur.umap", "thumbnail": "assets/maps/fjordur.webp", "verified": true },
+  { "id": "aquatica", "displayName": "Aquatica", "edition": "ase", "launchToken": "Aquatica", "dlcRequired": false, "installedCheck": "Maps/Abyss/Aquatica.umap", "thumbnail": "assets/maps/aquatica.webp", "verified": false }
+]
