@@ -135,7 +135,7 @@ Checked against the real ARK: Survival Evolved dedicated server (build 361.7), s
 
 ## Known limits
 
-- Checked on the real server, with the owner: start and stop from the window and the CLI, ready detection, log, player count, save on stop. Checked only with a fake server so far: the RCON buttons (Salvar jogo, Regerar selvagens), the console without a window plus Ctrl+C on the real server, and the `--autostart` boot flow.
+- Checked on the real server, with the owner: start and stop from the window and the CLI, ready detection, log, player count, save on stop, and the RCON buttons (Salvar jogo, Regerar selvagens). Checked only with a fake server so far: the console without a window plus Ctrl+C on the real server, and the `--autostart` boot flow.
 - The admin password field in Configurações is kept in the Windows Credential Manager but the RCON buttons read the password from the server's ini, which is what the server itself uses.
 - The ini rules screens were checked once on the real server (05/11/2026): `AutoSavePeriodMinutes` changed from 5 to 6 through the UI, only that line changed, the server started and stopped with the new value kept, and the value was set back so both files ended byte for byte as before. Lists, attribute tables, INI personalizado and backup restore are tested on copies of the real files and with the dev mock only.
 - With little free memory the start is very slow: with 3.6 GB free a start took 1188 seconds instead of the usual 150 to 260.
